@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnuncieActivity">
+
+    <include
+        android:id="@+id/navbar"
+        layout="@layout/activity_navbar" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_below="@id/navbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Como Anunciar"
+        android:textColor="@color/verde_CNS"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRevenda"
+        android:layout_below="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:text="Revenda"
+        android:textColor="@android:color/white"
+        android:paddingHorizontal="120dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnParticular"
+        android:layout_below="@id/btnRevenda"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:text="Particular"
+        android:textColor="@android:color/white"
+        android:paddingHorizontal="110dp"/>
+</RelativeLayout>

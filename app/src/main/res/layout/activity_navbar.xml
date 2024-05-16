@@ -1,0 +1,70 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    tools:context=".NavbarActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/logo_20_anos_sem_fundo__horizontal_"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/buttons_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="#3B7E71"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/busca_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#3B7E71"
+            android:text="BUSCA"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/revendas_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#3B7E71"
+            android:text="REVENDAS"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/anuncie_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#3B7E71"
+            android:text="ANUNCIE"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/contato_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#3B7E71"
+            android:text="CONTATO"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

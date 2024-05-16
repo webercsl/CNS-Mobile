@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CNS-Mobile 2</string>
+
+    <string name="titulo_veiculo"><b>{Marca Modelo Versão}</b></string>
+    <string name="numero_id_veiculo"><b>Número:</b> {ID do veículo}</string>
+    <string name="categoria_veiculo"><b>Categoria:</b> {Categoria do veículo}</string>
+    <string name="condicao_veiculo"><b>Condição:</b> {Condição do veículo}</string>
+    <string name="marca_veiculo"><b>Marca:</b> {Marca do veículo}</string>
+    <string name="modelo_veiculo"><b>Modelo:</b> {Modelo do veículo}</string>
+    <string name="ano_veiculo"><b>Ano:</b> {Ano Fabricação / Ano Modelo}</string>
+    <string name="cor_veiculo"><b>Cor:</b> {Cor do veículo}</string>
+    <string name="combustivel_veiculo"><b>Combustível:</b> {Combustível do veículo}</string>
+    <string name="cambio_veiculo"><b>Câmbio:</b> {Câmbio do veículo}</string>
+    <string name="portas_veiculo"><b>Portas:</b> {n° de portas do veículo}</string>
+    <string name="km_veiculo"><b>Quilometragem:</b> {km do veículo} KM</string>
+
+    <string name="ordenar_por">Ordenar por:</string>
+    <string-array name="opcoes_ordenar_por">
+        <item>Mais recentes antes</item>
+        <item>Mais novos antes</item>
+        <item>Mais antigos antes</item>
+        <item>Menor valor</item>
+        <item>Maior valor</item>
+    </string-array>
+</resources>

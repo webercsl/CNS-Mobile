@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true">
+
+    <include layout="@layout/activity_navbar"
+        android:id="@+id/navbar"/>
+
+    <TextView
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navbar"
+        android:background="@drawable/border_bottom_gray"
+        android:text="@string/titulo_veiculo"
+        android:textColor="@color/verde_CNS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Carrossel de Fotos -->
+    <!-- Implementar o carrossel de fotos aqui -->
+
+    <TextView
+        android:id="@+id/txtDadosVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DADOS DO VEÍCULO"
+        android:textColor="@color/verde_CNS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/numeroIdVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numero_id_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/txtDadosVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/categoriaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/categoria_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/numeroIdVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtcondicaoVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/condicao_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/categoriaVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtmarcaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marca_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/txtcondicaoVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtmodeloVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modelo_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/txtmarcaVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtanoVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ano_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/txtmodeloVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtcorVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cor_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/txtanoVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtcombustivelVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/combustivel_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/txtcorVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtcambioVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cambio_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/txtcombustivelVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtportasVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/portas_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/txtcambioVeiculo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtKMVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/km_veiculo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/txtportasVeiculo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtValoresPagamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VALORES E PAGAMENTOS"
+        android:textColor="@color/verde_CNS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtKMVeiculo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtPrecoVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ {Preço do veículo}"
+        android:textColor="@color/verde_CNS"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:background="#D3D3D3"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="150dp"
+        android:layout_below="@id/txtValoresPagamentos"
+        android:layout_centerHorizontal="true" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@id/txtPrecoVeiculo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:paddingHorizontal="80dp"/>
+</RelativeLayout>

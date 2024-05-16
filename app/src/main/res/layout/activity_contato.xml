@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContatoActivity">
+
+    <include
+        android:id="@+id/navbar"
+        layout="@layout/activity_navbar" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_below="@id/navbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Contato"
+        android:textColor="@color/verde_CNS"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/editTextCidade"
+        android:layout_below="@id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Cidade" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_below="@id/editTextCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextCelular"
+        android:layout_below="@id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Celular"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextMensagem"
+        android:layout_below="@id/editTextCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Mensagem"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnEnviar"
+        android:layout_below="@id/editTextMensagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:text="Enviar"
+        android:textColor="@android:color/white"
+        android:paddingHorizontal="140dp"/>
+</RelativeLayout>
