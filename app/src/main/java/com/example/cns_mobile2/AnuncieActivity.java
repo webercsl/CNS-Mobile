@@ -15,6 +15,7 @@ public class AnuncieActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anuncie);
+        new Navbar(this);
 
         btnRevenda = findViewById(R.id.btnRevenda);
         btnParticular = findViewById(R.id.btnParticular);

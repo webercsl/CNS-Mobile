@@ -21,20 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    <activity android:name=".AnuncieActivity" android:exported="false"/>
-    <activity android:name=".BuscaActivity" android:exported="false"/>
-    <activity android:name=".CadastroParticularActivity" android:exported="false"/>
-    <activity android:name=".ContatoActivity" android:exported="false"/>
-    <activity android:name=".DetalhesVeiculoActivity" android:exported="false"/>
-        <activity android:name=".NavbarActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    <activity android:name=".RevendaDetalhesActivity" android:exported="false"/>
-    <activity android:name=".RevendasActivity" android:exported="false"/>
-    <activity android:name=".RevendaVeiculosActivity" android:exported="false"/>
+    <activity android:name=".AnuncieActivity"/>
+    <activity android:name=".BuscaActivity"/>
+    <activity android:name=".CadastroParticularActivity"/>
+    <activity android:name=".ContatoActivity"/>
+    <activity android:name=".DetalhesVeiculoActivity"/>
+    <activity android:name=".RevendaDetalhesActivity"/>
+    <activity android:name=".RevendasActivity"/>
+    <activity android:name=".RevendaVeiculosActivity"/>
     </application>
 </manifest>

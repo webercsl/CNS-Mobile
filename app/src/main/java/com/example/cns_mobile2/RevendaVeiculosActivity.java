@@ -11,6 +11,7 @@ public class RevendaVeiculosActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_revenda_veiculos);
+        new Navbar(this);
 
         Spinner spinnerOrdenarPor = findViewById(R.id.spinnerOrdenarPor);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,

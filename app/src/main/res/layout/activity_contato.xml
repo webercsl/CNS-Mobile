@@ -5,9 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".ContatoActivity">
 
-    <include
-        android:id="@+id/navbar"
-        layout="@layout/activity_navbar" />
+    <include layout="@layout/activity_navbar" />
 
     <TextView
         android:id="@+id/title"

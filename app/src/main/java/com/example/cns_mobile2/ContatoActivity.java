@@ -21,6 +21,7 @@ public class ContatoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contato);
+        new Navbar(this);
 
         editTextNome = findViewById(R.id.editTextNome);
         editTextCidade = findViewById(R.id.editTextCidade);

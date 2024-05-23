@@ -2,11 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/busca_button"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".BuscaActivity"
     android:gravity="center">
 
     <include layout="@layout/activity_navbar"/>
@@ -53,6 +51,7 @@
         android:id="@+id/editTextModelo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:hint="Digite o modelo"/>
 
     <!-- Ano Spinners -->
@@ -86,6 +85,7 @@
         android:id="@+id/editTextValorDe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:inputType="number"
         android:hint="Digite o valor mínimo"/>
 
@@ -99,6 +99,7 @@
         android:id="@+id/editTextValorAte"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:inputType="number"
         android:hint="Digite o valor máximo"/>
 
@@ -123,6 +124,5 @@
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:layout_centerHorizontal="true"
         app:layout_constraintTop_toBottomOf="@id/spinnerCidade" />
 </LinearLayout>

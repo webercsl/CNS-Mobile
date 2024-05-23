@@ -15,6 +15,7 @@ public class RevendaDetalhesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_revenda_detalhes);
+        new Navbar(this);
 
         TextView tituloTextView = findViewById(R.id.tituloTextView);
         TextView enderecoTextView = findViewById(R.id.enderecoTextView);
